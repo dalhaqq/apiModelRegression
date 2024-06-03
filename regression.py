@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 import warnings # supress warnings
 warnings.filterwarnings('ignore')
 
-df = pd.read_csv('/Users/narotama/Kuliah/Tugas Akhir/regression/new-dataset.csv')
+df = pd.read_csv('./new-dataset.csv')
 
 df = df.drop_duplicates(keep='first')
 
