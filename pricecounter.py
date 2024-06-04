@@ -1,6 +1,6 @@
 import pypdfium2 as pdfium
 import numpy as np
-from regression import pricePrediction
+from .regression import pricePrediction
 from concurrent.futures import ProcessPoolExecutor
 
 def image_precount(img):

@@ -1,7 +1,7 @@
 #app.py
 import os
 from werkzeug.utils import secure_filename
-from pricecounter import getprice, getpage
+from .pricecounter import getprice, getpage
 from flask import Flask, jsonify, request, render_template
 
 app = Flask(__name__)
