@@ -2,6 +2,8 @@
 
 FROM python:3.9-slim-buster
 
+EXPOSE 5000
+
 WORKDIR /python-docker
 
 COPY requirements.txt requirements.txt
