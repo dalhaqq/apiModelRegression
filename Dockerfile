@@ -13,4 +13,4 @@ COPY . .
 
 ENV FLASK_APP=api_v3.py
 
-CMD ["gunicorn", "-b" , "0.0.0.0:5000", "api_v3:app"]
+CMD ["gunicorn", "-k", "gevent", "-w", "3", "-b", "0.0.0.0:5000", "api_v3:app"]
