@@ -9,3 +9,4 @@ pillow==10.2.0
 pypdfium2==4.30.0
 Werkzeug==3.0.3
 gunicorn
+gevent
